@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+
+	<keys>
+		<!-- NOTE: The strings listed for keys here will only affect what text appears in the game.  
+				It will NOT affect the game controls.  To change the game controls keys, edit game_config.xml -->
+	
+		<move_up><![CDATA[UP ARROW]]></move_up>
+		<move_down><![CDATA[DOWN ARROW]]></move_down>
+		<move_left><![CDATA[LEFT ARROW]]></move_left>
+		<move_right><![CDATA[RIGHT ARROW]]></move_right>
+		
+		<next_screen><![CDATA[Q]]></next_screen>
+	</keys>
+	
+	<loading_screen>
+		<loading><![CDATA[Loading]]></loading>
+		<loading_percent><![CDATA[%N%]]></loading_percent> 
+	</loading_screen>
+
+	<title_screen>
+		<screen_header><![CDATA[TITLE]]></screen_header>
+	
+		<play><![CDATA[PLAY!]]></play>
+		<new_game><![CDATA[Reset]]></new_game>
+		<continue_game><![CDATA[PLAY!]]></continue_game>
+		<confirm_new_game_prompt>
+			<header><![CDATA[Reset Game]]></header>
+			<are_you_sure><![CDATA[All game progress will be erased.  Are you sure?]]></are_you_sure>
+			<data_erased><![CDATA[Data has been erased.]]></data_erased>
+			<yes><![CDATA[Yes]]></yes>
+			<no><![CDATA[No]]></no>
+			<ok><![CDATA[OK]]></ok>
+		</confirm_new_game_prompt>
+	</title_screen>
+	
+	<story_screen>
+		<screen_header><![CDATA["Meet Swampy"]]></screen_header>
+		<clickToSkip><![CDATA[Click to Skip]]></clickToSkip>
+	</story_screen>
+	
+	<help_screen>
+		<screen_header><![CDATA[HELP]]></screen_header>
+		
+		<next><![CDATA[NEXT]]></next>
+		
+		<key_left><![CDATA[A]]></key_left>
+	</help_screen>
+	
+	<level_select_screen>
+		<screen_header><![CDATA[Level Select]]></screen_header>
+		
+		<coming_soon><![CDATA[More Levels <br>Coming Soon!]]></coming_soon>
+		
+		<collection><![CDATA[Collection]]></collection>
+		<achievements><![CDATA[Achievements]]></achievements>
+		
+		<level_1><![CDATA[1]]></level_1>
+		<level_2><![CDATA[2]]></level_2>
+		<level_3><![CDATA[3]]></level_3>
+		<level_4><![CDATA[4]]></level_4>
+		<level_5><![CDATA[5]]></level_5>
+		
+		<ad><![CDATA[Full version available<br>in the App Store!]]></ad>
+	</level_select_screen>
+	
+	<collections_screen>
+		<collection><![CDATA[Collection]]></collection>
+		<bonusLevels><![CDATA[Bonus Levels]]></bonusLevels>
+		<meet_swampy><![CDATA["Meet Swampy"]]></meet_swampy>
+		<okay><![CDATA[OK]]></okay>
+	</collections_screen>
+	
+	<achievements_screen>		
+		<achievement_banner><![CDATA[Achievement: %N]]></achievement_banner>
+		<achievement><![CDATA[Completed "Meet Swampy"]]></achievement>
+		<achievement><![CDATA[Tri-Ducked "Meet Swampy"]]></achievement>
+		<achievement><![CDATA[Found First Collectible]]></achievement>
+		<achievement><![CDATA[Unlocked a Bonus Level]]></achievement>
+		<achievement><![CDATA[Who Made This?]]></achievement>
+	</achievements_screen>
+	
+	<gameplay_screen>
+		<screen_header><![CDATA[GAMEPLAY]]></screen_header>
+
+		<score><![CDATA[SCORE:]]></score>
+		<clock_time><![CDATA[%M:%S]]></clock_time>		
+		<pause><![CDATA[Pause]]></pause>
+		
+		<tutorial>
+			<tutorial_text><![CDATA[Click and drag to<br>cut the dirt!]]></tutorial_text>
+		</tutorial>
+		
+		<loading><![CDATA[Loading...]]></loading>
+		
+		<sequences>
+			<level><![CDATA[LEVEL]]></level>
+			<win><![CDATA[WIN!]]></win>
+			<die><![CDATA[TRY AGAIN]]></die>
+		</sequences>
+	</gameplay_screen>
+	
+	<pause_screen>
+		<screen_header><![CDATA[MENU]]></screen_header>
+		
+		<resume><![CDATA[Resume]]></resume>
+		<help><![CDATA[Help]]></help>
+		<sound><![CDATA[Sound On]]></sound>
+		<soundOff><![CDATA[Sound Off]]></soundOff>
+		<quit><![CDATA[Levels]]></quit>
+		<on><![CDATA[ON]]></on>
+		<sound><![CDATA[SOUND]]></sound>
+		<off><![CDATA[OFF]]></off>
+		<reset><![CDATA[Reset]]></reset>
+	</pause_screen>
+	
+	<confirm_quit_screen>
+		<screen_header><![CDATA[Confirm Quit]]></screen_header>
+	
+		<are_you_sure><![CDATA[Are you sure you want to quit?]]></are_you_sure>
+		<yes><![CDATA[Yes]]></yes>
+		<no><![CDATA[No]]></no>
+	</confirm_quit_screen>
+	
+	<gameover_screen>
+		<screen_header><![CDATA[TRY AGAIN!]]></screen_header>
+		
+		<retry_Btn><![CDATA[RETRY]]></retry_Btn>
+		<quit_Btn><![CDATA[HOME]]></quit_Btn>
+	</gameover_screen>
+	
+	<level_complete_screen>
+		<screen_header><![CDATA[LEVEL]]></screen_header>
+		<time_bonus><![CDATA[Time Bonus]]></time_bonus>
+		<duck_bonus><![CDATA[Duck Bonus]]></duck_bonus>
+		<overflow_bonus><![CDATA[Overflow Bonus]]></overflow_bonus>
+		<score><![CDATA[Score]]></score>
+		<new_high_score><![CDATA[New High Score!!]]></new_high_score>
+		<continueText><![CDATA[Next]]></continueText>		
+		<replayText><![CDATA[Replay]]></replayText>
+		<levelsText><![CDATA[Levels]]></levelsText>
+		
+		<performance><![CDATA[Level Complete!]]></performance>
+		<performance><![CDATA[Good job!]]></performance>
+		<performance><![CDATA[Super!]]></performance>
+		<performance><![CDATA[Excellent!]]></performance>
+	</level_complete_screen>
+	
+	<level_names>
+		<level><![CDATA[First Dig]]></level>
+		<level><![CDATA[Hard Rock]]></level>
+		<level><![CDATA[Triple Rainbow]]></level>
+		<level><![CDATA[You Need a New Plumber]]></level>
+		<level><![CDATA[Garage Door]]></level>
+		<level><![CDATA[Crack the Code]]></level>
+		<level><![CDATA[Press the Valve]]></level>
+		<level><![CDATA[Let's Play Dodge Bomb]]></level>
+		<level><![CDATA[Blast Off]]></level>
+		<level><![CDATA[Top Floor, Please]]></level>
+		<level><![CDATA[Under the Radar]]></level>
+	</level_names>
+	
+	<collectibles>
+		<name><![CDATA[Shiny Scale Shampoo]]></name>
+		<name><![CDATA[Suds-A-Lot Soap]]></name>
+		<name><![CDATA[Lucky Loofah]]></name>
+		
+		<description><![CDATA[Swampy’s favorite brand of shampoo! Nothing leaves his scales feeling healthier. Dermatologist approved!]]></description>
+		<description><![CDATA[At first Swampy thought this was bubblegum, but when his mouth overflowed with bubbles, he figured out it was soap.]]></description>
+		<description><![CDATA[Swampy is not a superstitious gator. But this loofah…is definitely lucky.]]></description>
+	</collectibles>
+	
+	<game_complete_screen>
+		<screen_header><![CDATA[AWESOME!]]></screen_header>
+		
+		<replay><![CDATA[REPLAY]]></replay>
+	</game_complete_screen>
+	
+</strings>
