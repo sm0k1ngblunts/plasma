@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game_config>
+
+	<loader swf="loader.swf"/>
+	<sounds swf="swfs/sounds.swf"/>
+	<sounds2 swf="swfs/sounds2.swf"/>
+	<content swf="wmw_spl_act_wheresmywater_content.swf"/>
+	<level_container swf="swfs/level_container.swf"/>
+	
+	<content_path path="Content/" />
+	<textures_path path="Content/Textures/" />
+	
+	<imagelist path="new_particle_atlas.imagelist" />
+	<!--<imagelist path="ui_atlas.imagelist" />-->
+	<imagelist path="objects.imagelist" />
+	<!--<imagelist path="splash_screen.imagelist" />-->
+	<!--<imagelist path="collectibles.imagelist" />-->
+	<!--<imagelist path="collectible_screen.imagelist" />-->
+	<!--<imagelist path="materials1.imagelist" />-->
+	<!--<imagelist path="materials2.imagelist" />-->
+	<!--<imagelist path="swampy.imagelist" />-->
+	<!--<imagelist path="cranky.imagelist" />-->
+	<!--<imagelist path="bathtubSwampy.imagelist" />-->
+	<!--<imagelist path="world_select_atlas.imagelist" />-->
+	<!--<imagelist path="achievements_atlas.imagelist" />-->
+	<!--<imagelist path="jellycar.imagelist" />-->
+		
+	<material png="Content/Textures/dirt.png" />
+	<material png="Content/Textures/rock.png" />
+	<material png="Content/Textures/rockshadow.png" />
+	<material png="Content/Textures/rockhilight.png" />		
+	<material png="Content/Textures/bricks.png" />			
+	
+	<room png="Content/Textures/room-HD.png" />		
+	<room_overlay png="Content/Textures/room_overlay-HD.png" />	
+	<endcap_bottom png="Content/Textures/Endcap-01-HD.jpg" />
+	<endcap png="Content/Textures/level_end_cap.jpg" />
+	
+	<material png="Content/Textures/water_alpha.png" />		
+	<material png="Content/Textures/water_color.png" />		
+	<material png="Content/Textures/water_color_ooze.png" />		
+	
+	<swampy swf="swfs/swampy.swf"/>		
+	<cranky swf="swfs/cranky.swf"/>		
+		
+	<level_1 png="Content/Levels/first_dig.png" xml="Content/Levels/first_dig.xml"/>
+	<level_2 png="Content/Levels/hard_rock.png" xml="Content/Levels/hard_rock.xml"/>
+	<level_3 png="Content/Levels/triple_rainbow.png" xml="Content/Levels/triple_rainbow.xml"/>				
+	<level_4 png="Content/Levels/you_need_a_new_plumber.png" xml="Content/Levels/you_need_a_new_plumber.xml"/>
+	<level_5 png="Content/Levels/garage_door.png" xml="Content/Levels/garage_door.xml"/>
+	<level_6 png="Content/Levels/order_gate.png" xml="Content/Levels/order_gate.xml"/>
+	<level_7 png="Content/Levels/press_the_valve.png" xml="Content/Levels/press_the_valve.xml"/>
+	<level_8 png="Content/Levels/beware_the_bombs.png" xml="Content/Levels/beware_the_bombs.xml"/>	
+	<level_9 png="Content/Levels/bomb-aid.png" xml="Content/Levels/bomb-aid.xml"/>	
+	<level_10 png="Content/Levels/dungeon_detective.png" xml="Content/Levels/dungeon_detective.xml"/>	
+	
+	<level_11 png="Content/Levels/another_castle.png" xml="Content/Levels/another_castle.xml"/>	
+	
+	<show_logo png="images/show_logo.png"/>
+	<game_logo png="images/game_logo.png"/>
+	
+	<strings xml="strings/strings.xml"/>
+
+	<!--  Loads the external fonts swf. Any special fonts specified in strings.xml need to be embedded inside it. -->	
+	
+	<remove_voice_over_sounds>false</remove_voice_over_sounds>		
+	
+	<!-- Determines whether or not the advertisement on the Level Select Screen is visible.  To edit the string,
+		edit <level_select_screen><ad> in strings.xml -->
+		
+	<showLevelSelectScreenAd value="0"/>
+	
+	<!-- NOTE: To change the text that appears for each key edit the entries strings.xml, under <keys> -->
+		
+	<keys_used> 									
+		<move_left>  		37 </move_left>    			<!-- LEFT ARROW = 37 -->
+		<move_right> 		39 </move_right>  			<!-- RIGHT ARROW = 39 -->
+		<move_up>  			38 </move_up>    			<!-- UP ARROW = 38 -->
+		<move_down>  		40 </move_down>				<!-- DOWN ARROW = 40 -->
+		<next_screen>  		81 </next_screen>			<!-- SPACEBAR = 32 -->
+	</keys_used> 
+	
+	<debug>false</debug>
+	
+</game_config>
